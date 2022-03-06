@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/port-images",
+      "handler": "port-image.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/port-images/count",
+      "handler": "port-image.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/port-images/:id",
+      "handler": "port-image.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/port-images",
+      "handler": "port-image.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/port-images/:id",
+      "handler": "port-image.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/port-images/:id",
+      "handler": "port-image.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
